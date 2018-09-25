@@ -1,0 +1,98 @@
+
+PVS: Photo Video Slideshow
+
+Description:
+   Reads in photo and video index files, then randomly displays photo and video snippets for 30 seconds.
+   Loads 100 random images at a time, reloads a new set every 30 minutes.
+
+More info can be found on http://misterhouse.blogspot.com  or  https://youtube.com/brucewinter
+
+
+Quick install and test:
+   unzip pvs.zip to a local directory path_foo
+   Point Firefox to:  file:///path_foo/pvs/pvs.html
+
+
+---------------------------
+
+
+To install:
+   Copy the pvs dir and files to a local drive, usb, or sd card (e.g. f:\pvs).
+   Create and populate parallel photos and videos dir (e.g. f:\photos f:\videos).  These can have subdirectories.
+   Create photo_list.txt and video_list.txt files (see below).
+   Point your browser to the pvs.html file (e.g. file:///f:/pvs/pvs.html or file:///storage/sdcard1/pvs/pvs.html)
+
+Note:
+   Videos must be converted to mp4 format for html video to work.  wmv, m4v, mov, and avi files will not work.
+
+Note:
+   Firefox and Android Fully Kiosk browsers support local files.  Chrome, IE, and Silk browsers do not.
+   Alternatively, you can copy the files to a local web server then use any browser.
+
+
+Mouse and touch screen shortcuts:
+  left:    previous
+  right:   next
+  middle:  pause/resume
+
+Keyboard shortcuts:
+  left:    previous
+  right:   next
+  up:      pause/resume
+  down:    hide
+
+
+Note for use on Android tablets:
+
+   Use a windows box to copy photos/videos to an SD card and make the index files (see Windows comment below).
+
+   For Amazon Fire tablets, first install the Google play store.  Example instructions here:
+      https://www.laptopmag.com/articles/get-google-play-on-fire-tablet
+
+   Then install Firefox and/or Fully Kiosk broswers and point to your SD card files with:  
+      file:///storage/sdcard1/pvs/pvs.html
+
+
+Note for use on Windows:
+
+   You can use this to copy new photos.  It will  copy just jpg files and maintiain file structure:
+      ROBOCOPY c:\Pictures f:\photos *.jpg /S
+
+   You can use this to re-create the photo_list.txt and video_list.txt files:
+      pvs/make_index/pvs_index.exe
+
+   pvs_index.exe is the perl script pvs_index.pl compiled into a windows .exe.
+   It calls the ffprobe.exe and find.exe executables.
+
+
+Note for IOS and Linux users:
+
+   Modify pvs_index.pl to point to ffprobe and find, then run perl pvs_index.pl
+   
+
+Note if you want to mail tablets to friends/relatives:
+
+   You will want to use a throw away Google ID when installing the play store, as there appears to not be an easy way to decouple it once installed.
+
+   You will want to de-register the tablet from your Amazon ID.   It will work un-registered, or they can re-register with their ID to enable Alexa, etc.
+   
+
+   Here is a letter I sent to children when mailing them Amazon Fire tablets with pvs installed:
+
+---
+
+I am sending you all an Amazon Fire tablet with a dock, re-purposed to randomly show photos and video snippets.   
+
+I've loaded their SD card with all of our photos and videos from 1985 -> 2007, about 100 GB.   
+
+The tablets should boot up with the slideshow running, but Android will only boot to a lock screen, so you will need to swipe up to unlock.   If you don't turn it off, it should run forever, or until your next power outage :)      They only consume about 5 watts of power, so leaving them on all the time will cost you roughly $5 per year.    We leave ours on, as they also make for nice night lights.   
+
+To pause on the current photo/video, tap in the middle.    Tap again to resume.   Tap on the left for previous, on the right for next.   With videos, when you tap, you can tap again on the speaker in the lower right to turn the audio on/off.  
+
+You can use the tablet for other things, including turning on Alexa hands free mode where you can do "Alexa, ..." commands.     You can turn Alexa on from the settings menu, then it should prompt you to register the tablet with an Amazon id (they are currently not registered).    By default the lock screen shows annoying Amazon ads.  You can pay a one time fee of $15 to disable them, but probably not worth it, as you should not see the lock screen very often.  
+
+If you want to change the photos and/or videos, you can add and/or delete to the photos and videos directories on the SD card, or use a different SD card.    If you do that, there is an index file that will need to be re-created, instructions in the pvs/pvs.txt file.
+
+I hope you enjoy the slideshow as much as we do.    We often walk by one of our displays and see and remember something fun we did.   If you don't like it, feel free to use the tablet for something else, I won't mind.
+
+---

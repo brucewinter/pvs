@@ -1,0 +1,3 @@
+../videos/flowers_portalata_17a_small.mp4#t=0,60 label=0/0
+../videos/trail_armodillo_0717.mp4#t=0,60 label=0/0
+../videos/trail_coyote_18_01.mp4#t=0,60 label=0/0

@@ -1,0 +1,169 @@
+
+@keyframes animate_s {
+    0% {
+      opacity: 0;
+    }
+    20% {
+      opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes animate_s2 {
+    0% {
+      opacity: .2;
+    }
+    20% {
+        opacity: 1;
+    }
+    40% {
+        transform: scale3d(1.7, 1.7, 1.7) translate3d(-0%, -15%, 0px); 
+        opacity: 1;
+    }
+    80% {
+        transform: scale3d(1.7, 1.7, 1.7) translate3d(0%, 15%, 0px); 
+        opacity: 1;
+    }
+    100% {
+        opacity: .2;
+    }
+
+}
+
+@keyframes animate_v {
+    0% {
+      opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    60% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes animate_v2 {
+    0% {
+      opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    40% {
+        transform: scale3d(1.7, 1.7, 1.7) translate3d(-0%, -15%, 0px); 
+        opacity: 1;
+    }
+    80% {
+        transform: scale3d(1.7, 1.7, 1.7) translate3d(0%, 15%, 0px); 
+        opacity: 1;
+    }
+    100% {
+        opacity: .2;
+    }
+}
+
+
+.slide1 {
+   position: absolute;
+       left: 1px;
+      right: 1px;
+        top: 1px;
+	bottom: 1px;	
+    overflow: hidden;
+}
+.slide1 img {
+    display: block;
+     margin: auto;
+  animation: animate_s2 30s infinite;
+}
+
+
+
+.video1 {
+   position: absolute;
+      right: 1px;
+       left: 1px;
+        top: 1px;
+     bottom: 1px;
+    overflow: hidden;
+}
+.video1 video {
+    display: block;
+     margin: auto;
+  animation: animate_v2 60s infinite;
+}
+
+
+.pause_slide {
+   position: absolute;
+      right: 1px;
+       left: 1px;
+        top: 1px;
+     bottom: 1px;
+    opacity: 1;
+    z-index: 1;
+}
+.pause_slide img {
+    display: block;
+     margin: auto;
+}
+
+.pause_video {
+    position: absolute;
+      right: 1px;
+       left: 1px;
+        top: 1px;
+     bottom: 1px;
+}
+.pause_video video {
+    display: block;
+     margin: auto;
+}
+
+.hide {
+   position: absolute;
+       left: 99%;
+      right: 1%;
+        top: 1%;
+     bottom: 99%;
+}
+
+.search_form {
+  font-size: 1.0vw;
+   position: absolute;
+       left: 5px;
+     bottom: 5px;
+  background-color:grey; 
+  border: solid 1px #6E6E6E;
+}
+
+
+#slide_label {
+   position: absolute;
+       left: 5%;
+      right: 5%;
+     bottom: 5px;
+  font-size: 2.0vw;
+      color: #ffffff;
+    z-index: 1;
+//  opacity: .75;
+//  background-color:grey; 
+}
+
+#clock {
+  position: absolute;
+      left:10px;
+       top:1px;
+   z-index: 1;
+}
+
+
+
