@@ -11,9 +11,13 @@ Quick install and test:
    Point Firefox to:  file:///path_foo/pvs/pvs.html
    
 More info:
+   
    pvs/pvs.txt
+   
    https://github.com/brucewinter/pvs
+   
    https://youtube.com/brucewinter
+   
    https://misterhouse.blogspot.com
    
    
