@@ -6,8 +6,8 @@
 
 var slidecount1    =    100
 
-var slidelist      = '../photo_index.txt'
-var videolist      = '../video_index.txt'
+var slidelist      = 'photo_index.txt'
+var videolist      = 'video_index.txt'
 
 var speed_photo = 30000
 var speed_video = 30000

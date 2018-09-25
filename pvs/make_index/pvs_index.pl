@@ -10,14 +10,14 @@ $|++;
 use Cwd qw(getcwd);
 chdir "..";
 
-my $f_pic  = '../photo_index.txt';
-my $f_vid1 = '../video_list.txt';
-my $f_vid2 = '../video_index.txt';
+my $f_pic  = 'photo_index.txt';
+my $f_vid1 = 'video_list.txt';
+my $f_vid2 = 'video_index.txt';
 
-my $find = '/usr/bin/find';
-#my $find = 'make_index\find.exe';
-my $probe = '/usr/bin/ffprobe';
-#my $probe = 'make_index\\ffprobe.exe';
+#my $find = '/usr/bin/find';
+my $find = 'make_index\find.exe';
+#my $probe = '/usr/bin/ffprobe';
+my $probe = 'make_index\\ffprobe.exe';
 
 # This could be done natively in perl, but is easier/faster with the find command
 
