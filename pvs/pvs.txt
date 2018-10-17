@@ -1,22 +1,33 @@
 
-PVS: Photo Video Slideshow
+PVS:  Photo Video Slideshow 
 
 Description:
-   Reads in photo and video index files, then randomly displays photo and video snippets for 30 seconds.
-   Loads 100 random images at a time, reloads a new set every 30 minutes.
 
-More info can be found on http://misterhouse.blogspot.com  or  https://youtube.com/brucewinter
+   Shows photos and/or video snippets using a web browser on your phone, tablet, computer, or TV.
 
+   Make a cheap photo/video display by gathering your home videos and/or photos onto a micro-SD card and plug it into a $50 (7"), $80 (8"), or $150 (10") Fire Tablet
 
-Quick install and test:
-   unzip pvs.zip to a local directory path_foo
-   Point Firefox to:  file:///path_foo/pvs/pvs.html
+   Javascript reads in photo and video index files, then randomly displays photo and video snippets for 30 seconds. Loads 100 random images at a time, reloads a new set every 30 minutes.
 
+Quick install and test with git:
+   git clone https://github.com/brucewinter/pvs.git 
+   cd pvs/pvs
+   firefox pvs.html
+
+Quick install and test with a zip file:
+   download https://github.com/brucewinter/pvs/archive/master.zip
+   unzip to directory path_foo
+   point Firefox to:  file:///path_foo/pvs/pvs.html
+
+More info:
+   https://youtu.be/iAk4NmhACQY
+   https://misterhouse.blogspot.com/2018/10/html-photo-and-video-slideshow.html
+   https://github.com/brucewinter/pvs
+   https://github.com/brucewinter/pvs/blob/master/pvs/pvs.txt
 
 ---------------------------
 
-
-To install:
+Detail instructions:  
    Copy the pvs dir and files to a local drive, usb, or sd card (e.g. f:\pvs).
    Create and populate parallel photos and videos dir (e.g. f:\photos f:\videos).  These can have subdirectories.
    Create photo_list.txt and video_list.txt files (see below).
@@ -75,7 +86,12 @@ Note if you want to mail tablets to friends/relatives:
    You will want to use a throw away Google ID when installing the play store, as there appears to not be an easy way to decouple it once installed.
 
    You will want to de-register the tablet from your Amazon ID.   It will work un-registered, or they can re-register with their ID to enable Alexa, etc.
-   
+
+
+
+--------------------------------
+
+
 
    Here is a letter I sent to children when mailing them Amazon Fire tablets with pvs installed:
 
