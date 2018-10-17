@@ -20,14 +20,13 @@ Loads 100 random images at a time, reloads a new set every 30 minutes.
    
 ## More info:
 
-    [Youtube video](https://youtu.be/iAk4NmhACQY)
+   [Youtube video](https://youtu.be/iAk4NmhACQY)
    
-    [Project page](https://misterhouse.blogspot.com/2018/10/html-photo-and-video-slideshow.html)
+   [Project page](https://misterhouse.blogspot.com/2018/10/html-photo-and-video-slideshow.html)
         
-    [Github page](https://github.com/brucewinter/pvs)
+   [Github page](https://github.com/brucewinter/pvs)
 
-    [Detailed instructions](https://github.com/brucewinter/pvs/blob/master/pvs/pvs.txt)
- 
-        
+   [Detailed instructions](https://github.com/brucewinter/pvs/blob/master/pvs/pvs.txt)
+     
    
    
