@@ -13,20 +13,20 @@ Loads 100 random images at a time, reloads a new set every 30 minutes.
     firefox pvs.html
 
 ## Quick install and test with a zip file:
-    download [https://github.com/brucewinter/pvs/archive/master.zip]
+    download https://github.com/brucewinter/pvs/archive/master.zip
     unzip to directory path_foo
     point Firefox to:  file:///path_foo/pvs/pvs.html
 
    
 ## More info:
 
-    <https://youtu.be/iAk4NmhACQY>
+    [Youtube video](https://youtu.be/iAk4NmhACQY)
    
-    <http://misterhouse.blogspot.com/2018/10/html-photo-and-video-slideshow.html>
+    [Project page](https://misterhouse.blogspot.com/2018/10/html-photo-and-video-slideshow.html)
         
-    <https://github.com/brucewinter/pvs>
+    [Github page](https://github.com/brucewinter/pvs)
 
-    <https://github.com/brucewinter/pvs/blob/master/pvs/pvs.txt>
+    [Detailed instructions](https://github.com/brucewinter/pvs/blob/master/pvs/pvs.txt)
  
         
    
